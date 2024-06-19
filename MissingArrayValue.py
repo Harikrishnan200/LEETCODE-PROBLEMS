@@ -1,3 +1,7 @@
+""" Given an array of size n-1 such that it only contains distinct integers in the range of 1 to n. 
+Return the missing element. (Geeks)
+ """
+
 class Solution:
     
     # Note that the size of the array is n-1
