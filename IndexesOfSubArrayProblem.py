@@ -1,3 +1,7 @@
+""" Given an unsorted array arr of size n that contains only non negative integers, find a sub-array (continuous elements)
+that has sum equal to s. You mainly need to return the left and right indexes(1-based indexing) of that subarray. (Geeks)"""
+
+
 class Solution:
     def indexesOfSubArraySum(self,list:list[int],sum:int,length:int)->list[int]:
         start = 0
