@@ -1,3 +1,7 @@
+""" Given a circular sheet of radius, r. Find the total number of rectangles with integral length and width that can
+ be cut from the sheet that can fit on the circle, one at a time. (Geeks)"""
+
+
 class Solution:
     def numberOfRectangles(self,radius:int)->int:
         diameter = 2*radius
