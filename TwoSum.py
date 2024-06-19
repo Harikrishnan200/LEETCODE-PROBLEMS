@@ -1,3 +1,4 @@
+# Leetcode 1
 class solution:
     def twoSum(self,list: list[int],target: int)->list[int]:
         length = len(list)
