@@ -9,7 +9,7 @@ return list containing [-1]. (Geeks) """
 
 class Solution:
 
-    # Note that the size of the array is n-1
+    
     def missingElement(self,arr):
         count = False
         list = []
