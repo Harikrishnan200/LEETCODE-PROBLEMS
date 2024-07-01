@@ -18,3 +18,15 @@ print("Second largest num in the given array is:"+str(s_large))
 # Output:
 
 # Second largest num in the given array is:6
+
+# Another method
+
+class Solution:
+    def second_largest_number(self, lst: list[int]) -> int:
+        sorted_array = sorted(lst, reverse=True) 
+        second_largest = next((num for num in sorted_array if num < sorted_array[0]), None)  # next() fn returns the next item in an iterator.
+        
+        return second_largest
+
+s_large = Solution().second_largest_number([1, 2, 3, 6, 8])
+print("Second largest number in the given array is: " + str(s_large))
