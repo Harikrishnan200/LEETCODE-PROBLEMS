@@ -1,3 +1,5 @@
+# Count the no. of white spaces in the given string
+
 # def count_white_spaces(arr):
 #     count = 0
 #     for i in range(len(arr)-1):
