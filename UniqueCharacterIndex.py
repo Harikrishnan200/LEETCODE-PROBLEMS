@@ -18,4 +18,4 @@ def unique_character(s):
 print(unique_character("hhaai"))
 
 # output
-# 2
+# 4
