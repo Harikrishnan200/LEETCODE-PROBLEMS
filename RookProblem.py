@@ -49,3 +49,12 @@ class Solution(object):
                     break
         
         return count
+    
+
+    # ALGORITHM
+
+    # 1. Find the position of the rook.
+    # 2. Set the 4 directions and set count = 0
+    # 3. For each direction, keep moving in that direction until you hit a wall or a bishop.
+    # 4. If you hit a pawn, increment the count.
+    # 5. Return the count.
