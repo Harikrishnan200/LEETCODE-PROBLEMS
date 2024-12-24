@@ -72,4 +72,4 @@ class Solution:
             nums[index] = nums[index] * multiplier
             count += 1
         return nums
-    
+
