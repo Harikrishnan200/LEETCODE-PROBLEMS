@@ -26,3 +26,8 @@ arr = [1, 2, 3, 7, 5, 12, 11]
 target_sum = 12
 print(f"All contiguous subarrays with sum {target_sum}:")
 find_all_contiguous_subarrays_with_sum(arr, target_sum)
+
+
+
+
+
