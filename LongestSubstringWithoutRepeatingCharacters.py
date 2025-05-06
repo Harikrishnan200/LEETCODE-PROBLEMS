@@ -1,6 +1,6 @@
 # Given a string s, find the length of the longest substring without repeating characters.
 
-def longest_palindromic_substring(str):
+def longest_unique_substring(str):
     char_index = {}
     left = 0
     max_length = 0
@@ -16,7 +16,7 @@ def longest_palindromic_substring(str):
         max_length = max(max_length,right - left +1)
     return max_length
 
-print(longest_palindromic_substring("abaabcbb"))
+print(longest_unique_substring("abaabcbb"))
 
 
 # output
