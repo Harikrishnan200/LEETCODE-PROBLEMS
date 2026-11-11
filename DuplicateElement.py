@@ -49,4 +49,19 @@ class Solution:
             else:
                 return [-1]
 
-print(Solution().missingElement( [1, 2, 3, 5,5,3]))            
+print(Solution().missingElement( [1, 2, 3, 5,5,3]))       
+
+
+# Another Optimized Solution
+
+def duplicate_elements(arr):
+    seen = set()
+    duplicates = set()
+
+    for n in arr:
+        if n in seen:
+            duplicates.add(n)
+        else:
+            seen.add(n)
+
+    return sorted(duplicates) if duplicates else [-1]
